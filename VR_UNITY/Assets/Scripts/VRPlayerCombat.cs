@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class VRPlayerCombat : MonoBehaviour
 {
@@ -16,14 +17,12 @@ public class VRPlayerCombat : MonoBehaviour
 
     void Update()
     {
-        // Nếu đã kích hoạt tấn công, ngừng quét Gaze để tránh loop
         if (isAwaitingAttack) return;
 
-        // Bắn Raycast từ giữa kính VR
         Ray ray = new Ray(myHead.position, myHead.forward);
         RaycastHit hit;
 
-        // Vẽ tia đỏ trong Scene để ông dễ căn chỉnh vị trí Conquest
+        // Vẽ tia đỏ để ông debug trong cửa sổ Scene
         Debug.DrawRay(myHead.position, myHead.forward * interactionRange, Color.red);
 
         if (Physics.Raycast(ray, out hit, interactionRange))
@@ -56,16 +55,42 @@ public class VRPlayerCombat : MonoBehaviour
         isAwaitingAttack = true;
         ResetGaze();
 
-        Debug.Log("<color=red>Mark:</color> Damn, Conquest!");
-        Debug.Log("<color=yellow>Conquest:</color> Stand ready for my arrival, worm!");
+        Debug.Log("<color=yellow>Immortal:</color> Ta sẽ cho ngươi thấy sức mạnh thật sự!");
 
-        // Chỗ này sau này ông gắn EnemyBehavior vào Conquest thì chỉ cần:
-        // enemy.SendMessage("StartAttackSequence", SendMessageOptions.DontRequireReceiver);
+        // 1. Chạy Animation đấm (Nhớ đặt tên Trigger trong Animator là isPunching)
+        Animator anim = enemy.GetComponent<Animator>();
+        if (anim != null) anim.SetTrigger("isPunching");
+
+        // 2. Gọi Coroutine lao tới mặt mình
+        StartCoroutine(LungeRoutine(enemy, myHead.position));
     }
-    public void DashAttack(Vector3 playerPos)
-{
-    // Dùng iTween hoặc đơn giản là Vector3.MoveTowards trong Coroutine
-    // Để Conquest lao thẳng vào mặt người chơi
-    StartCoroutine(LungeRoutine(playerPos));
-}
+
+    // Coroutine xử lý việc đối thủ lao tới
+    private IEnumerator LungeRoutine(GameObject enemy, Vector3 targetPosition)
+    {
+        float elapsedTime = 0f;
+        float lungeDuration = 0.4f; // Tốc độ lao tới (càng nhỏ càng nhanh)
+        Vector3 startingPos = enemy.transform.position;
+
+        // Dừng lại trước mặt Mark 1.5m để không bị xuyên qua Camera
+        Vector3 direction = (targetPosition - startingPos).normalized;
+        Vector3 finalTarget = targetPosition - direction * 1.5f;
+        finalTarget.y = startingPos.y; // Giữ độ cao bay lơ lửng
+
+        while (elapsedTime < lungeDuration)
+        {
+            enemy.transform.position = Vector3.Lerp(startingPos, finalTarget, elapsedTime / lungeDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        enemy.transform.position = finalTarget;
+        
+        // Rung máy khi đấm trúng
+        #if UNITY_ANDROID || UNITY_IOS
+        Handheld.Vibrate();
+        #endif
+
+        yield return new WaitForSeconds(2f); // Chờ 2 giây sau cú đấm rồi cho lườm tiếp
+        isAwaitingAttack = false;
+    }
 }

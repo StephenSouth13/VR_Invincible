@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 73b29c77c7007444aaf138eef20fdb01
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hook Punch
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Armature_ROOTSHJnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Leg_HipSHJnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Leg_HipSHJnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Leg_KneeSHJnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Leg_KneeSHJnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Leg_AnkleSHJnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Leg_AnkleSHJnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_Spine_01SHJnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_Spine_02SHJnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_Neck_01SHJnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_Neck_TopSHJnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Arm_ClavicleSHJnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Arm_ClavicleSHJnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Arm_ShoulderSHJnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Arm_ShoulderSHJnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Arm_Elbow_CurveSHJnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Arm_Elbow_CurveSHJnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Arm_WristSHJnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Arm_WristSHJnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Leg_BallSHJnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Leg_BallSHJnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Eyes_01SHJnt
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Eyes_01SHJnt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_EyeBrowdown_AuxSHJnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Finger_02_01SHJnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Finger_02_02SHJnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Finger_02_03SHJnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Thumb_01_01SHJnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Thumb_01_02SHJnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Thumb_01_03SHJnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Finger_01_01SHJnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Finger_01_02SHJnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_l_Finger_01_03SHJnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Thumb_01_01SHJnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Thumb_01_02SHJnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Thumb_01_03SHJnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Finger_01_01SHJnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Finger_01_02SHJnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Finger_01_03SHJnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Finger_02_01SHJnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Finger_02_02SHJnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_r_Finger_02_03SHJnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Armature_Spine_TopSHJnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Model_TheImmortal@Hook Punch(Clone)
+      parentName: 
+      position: {x: 0.000874015, y: -0.00082667824, z: -0.001946707}
+      rotation: {x: 0.08916545, y: -0.3606295, z: 0.0020262008, w: 0.92843515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Model_TheImmortal
+      parentName: Model_TheImmortal@Hook Punch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Model_TheImmortal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_ROOTSHJnt
+      parentName: Armature
+      position: {x: -0.00003988482, y: 0.011111241, z: 0.00008797366}
+      rotation: {x: -0.67249614, y: 0.60166955, z: -0.3445687, w: 0.2588728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Leg_HipSHJnt
+      parentName: Armature_ROOTSHJnt
+      position: {x: 0.00079599995, y: 0, z: -0.0010299999}
+      rotation: {x: 0.057091348, y: 0.77551866, z: -0.6154464, w: -0.12859736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Leg_KneeSHJnt
+      parentName: Armature_l_Leg_HipSHJnt
+      position: {x: -0.004336, y: 0, z: 0}
+      rotation: {x: -0.065937005, y: -0.34172726, z: -0.03739522, w: 0.9367371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Leg_AnkleSHJnt
+      parentName: Armature_l_Leg_KneeSHJnt
+      position: {x: -0.004369, y: 0, z: 0}
+      rotation: {x: 0.019815376, y: 0.25173506, z: 0.14719328, w: 0.9563321}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Leg_BallSHJnt
+      parentName: Armature_l_Leg_AnkleSHJnt
+      position: {x: -0.001099, y: 0.000036999998, z: 0.0014239999}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Leg_HipSHJnt
+      parentName: Armature_ROOTSHJnt
+      position: {x: 0.00079599995, y: 0, z: 0.0010299999}
+      rotation: {x: -0.8058325, y: 0.04197069, z: -0.12716633, w: 0.57680255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Leg_KneeSHJnt
+      parentName: Armature_r_Leg_HipSHJnt
+      position: {x: 0.004336, y: 0, z: 0}
+      rotation: {x: 0.07202804, y: -0.3355369, z: 0.020304061, w: 0.93904996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Leg_AnkleSHJnt
+      parentName: Armature_r_Leg_KneeSHJnt
+      position: {x: 0.004369, y: 0, z: 0}
+      rotation: {x: -0.0070674336, y: 0.30187663, z: 0.0016026751, w: 0.9533195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Leg_BallSHJnt
+      parentName: Armature_r_Leg_AnkleSHJnt
+      position: {x: 0.001099, y: -0.000036999998, z: -0.0014239999}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_Spine_01SHJnt
+      parentName: Armature_ROOTSHJnt
+      position: {x: -0.001264, y: -0.000055999997, z: 0}
+      rotation: {x: -0.03190164, y: 0.0030480125, z: 0.038335256, w: 0.9987509}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_Spine_02SHJnt
+      parentName: Armature_Spine_01SHJnt
+      position: {x: -0.001294, y: 0.000048, z: 0}
+      rotation: {x: -0.012254356, y: -0.009329619, z: 0.0018230209, w: 0.9998798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_Spine_TopSHJnt
+      parentName: Armature_Spine_02SHJnt
+      position: {x: -0.0014040001, y: 0.000411, z: 0}
+      rotation: {x: -0.013141324, y: -0.0089819385, z: 0.0015647017, w: 0.9998721}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Arm_ClavicleSHJnt
+      parentName: Armature_Spine_TopSHJnt
+      position: {x: -0, y: -0.000132, z: -0.0011959999}
+      rotation: {x: 0.485285, y: -0.4889491, z: 0.52263296, w: 0.5022769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Arm_ShoulderSHJnt
+      parentName: Armature_l_Arm_ClavicleSHJnt
+      position: {x: -0.0011209999, y: 0, z: -0.000132}
+      rotation: {x: -0.1495801, y: -0.048853647, z: -0.0298376, w: 0.98709106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Arm_Elbow_CurveSHJnt
+      parentName: Armature_l_Arm_ShoulderSHJnt
+      position: {x: -0.0028879999, y: 0, z: 0}
+      rotation: {x: -0.0036371346, y: -0.0023788135, z: -0.002954505, w: 0.9999862}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Arm_Lower_Curve1SHJnt
+      parentName: Armature_l_Arm_Elbow_CurveSHJnt
+      position: {x: -0.001377, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Arm_WristSHJnt
+      parentName: Armature_l_Arm_Elbow_CurveSHJnt
+      position: {x: -0.002755, y: 0, z: 0}
+      rotation: {x: -0.17736538, y: 0.090307266, z: -0.043745004, w: 0.97901607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Finger_01_01SHJnt
+      parentName: Armature_l_Arm_WristSHJnt
+      position: {x: -0.001132, y: -0.000043, z: 0.000518}
+      rotation: {x: 0.10984681, y: -0.029130071, z: -0.07564367, w: 0.9906378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Finger_01_02SHJnt
+      parentName: Armature_l_Finger_01_01SHJnt
+      position: {x: -0.00044399998, y: -0.000093999995, z: 0}
+      rotation: {x: -0.00000064075016, y: -0.0000009220097, z: 0.0820837, w: 0.9966255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Finger_01_03SHJnt
+      parentName: Armature_l_Finger_01_02SHJnt
+      position: {x: -0.000316, y: -0.000013999999, z: 0}
+      rotation: {x: 0.00029691687, y: -0.000020514328, z: 0.1343321, w: 0.99093634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Finger_02_01SHJnt
+      parentName: Armature_l_Arm_WristSHJnt
+      position: {x: -0.001192, y: 0.000055999997, z: -0.000064}
+      rotation: {x: -0.12920076, y: -0.04498982, z: 0.004805338, w: 0.9905857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Finger_02_02SHJnt
+      parentName: Armature_l_Finger_02_01SHJnt
+      position: {x: -0.00047499998, y: -0.000013, z: 0}
+      rotation: {x: 0.00000014901158, y: 0.000000014901158, z: -0.10159724, w: 0.9948256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Finger_02_03SHJnt
+      parentName: Armature_l_Finger_02_02SHJnt
+      position: {x: -0.00031899998, y: -0.000074999996, z: 0}
+      rotation: {x: 0, y: 0, z: 0.2480635, w: 0.9687438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Thumb_01_01SHJnt
+      parentName: Armature_l_Arm_WristSHJnt
+      position: {x: -0.00020899999, y: -0.00021099999, z: 0.000353}
+      rotation: {x: 0.76511145, y: -0.03354497, z: 0.09658219, w: 0.6357288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Thumb_01_02SHJnt
+      parentName: Armature_l_Thumb_01_01SHJnt
+      position: {x: -0.00040899997, y: 0.000077, z: -0.000008}
+      rotation: {x: 0.036869347, y: -0.0120402295, z: -0.09302911, w: 0.9949077}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Thumb_01_03SHJnt
+      parentName: Armature_l_Thumb_01_02SHJnt
+      position: {x: -0.000465, y: -0.000025, z: 0.0000050000003}
+      rotation: {x: 0, y: 0, z: 0.07070533, w: 0.99749726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Arm_ElbowSHJnt
+      parentName: Armature_l_Arm_ShoulderSHJnt
+      position: {x: -0.0028879999, y: 0, z: 0}
+      rotation: {x: -0, y: 0.23481639, z: -0, w: 0.97203976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Arm_Upper_Curve1SHJnt
+      parentName: Armature_l_Arm_ShoulderSHJnt
+      position: {x: -0.0014439999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_Neck_01SHJnt
+      parentName: Armature_Spine_TopSHJnt
+      position: {x: -0.00078699994, y: -0.000013999999, z: 0}
+      rotation: {x: 0.011694196, y: 0.060564436, z: 0.15492508, w: 0.9859987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_Neck_TopSHJnt
+      parentName: Armature_Neck_01SHJnt
+      position: {x: -0.00079599995, y: 0.000054, z: 0}
+      rotation: {x: -0.12273352, y: 0.053563345, z: 0.1609934, w: 0.9778285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_EyeBrowdown_AuxSHJnt
+      parentName: Armature_Neck_TopSHJnt
+      position: {x: -0.001066, y: -0.000564, z: -0.00033599997}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_EyeBrowup_AuxSHJnt
+      parentName: Armature_Neck_TopSHJnt
+      position: {x: -0.001158, y: -0.00053599995, z: -0.00033799998}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_l_Eyes_01SHJnt
+      parentName: Armature_Neck_TopSHJnt
+      position: {x: -0.001078, y: -0.00038699998, z: -0.00030999997}
+      rotation: {x: 0, y: 0, z: 0.56717414, w: 0.82359797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_EyeBrowdown_AuxSHJnt
+      parentName: Armature_Neck_TopSHJnt
+      position: {x: -0.001066, y: -0.000564, z: 0.00033599997}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_EyeBrowup_AuxSHJnt
+      parentName: Armature_Neck_TopSHJnt
+      position: {x: -0.001158, y: -0.00053599995, z: 0.00033799998}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Eyes_01SHJnt
+      parentName: Armature_Neck_TopSHJnt
+      position: {x: -0.001078, y: -0.00038699998, z: 0.00030999997}
+      rotation: {x: 0, y: 0, z: 0.56717414, w: 0.82359797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TopPivot
+      parentName: Armature_Neck_TopSHJnt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.40105265, y: -0.5823717, z: 0.40105265, w: 0.5823717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Arm_ClavicleSHJnt
+      parentName: Armature_Spine_TopSHJnt
+      position: {x: -0, y: -0.000132, z: 0.0011959999}
+      rotation: {x: -0.471541, y: -0.49789265, z: -0.52245146, w: 0.5067509}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Arm_ShoulderSHJnt
+      parentName: Armature_r_Arm_ClavicleSHJnt
+      position: {x: 0.0011209999, y: 0, z: 0.000132}
+      rotation: {x: -0.17838676, y: -0.0041777943, z: 0.049178813, w: 0.9827218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Arm_Elbow_CurveSHJnt
+      parentName: Armature_r_Arm_ShoulderSHJnt
+      position: {x: 0.0028879999, y: 0, z: 0}
+      rotation: {x: -0.025285479, y: 0.0020460344, z: -0.01567417, w: 0.99955535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Arm_Lower_Curve1SHJnt
+      parentName: Armature_r_Arm_Elbow_CurveSHJnt
+      position: {x: 0.001377, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Arm_WristSHJnt
+      parentName: Armature_r_Arm_Elbow_CurveSHJnt
+      position: {x: 0.002755, y: 0, z: 0}
+      rotation: {x: 0.15135658, y: 0.0703755, z: -0.10700786, w: 0.9801468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Finger_01_01SHJnt
+      parentName: Armature_r_Arm_WristSHJnt
+      position: {x: 0.001132, y: 0.000043, z: -0.000518}
+      rotation: {x: 0.07930856, y: -0.049032353, z: 0.07174804, w: 0.99305505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Finger_01_02SHJnt
+      parentName: Armature_r_Finger_01_01SHJnt
+      position: {x: 0.00044399998, y: 0.000093999995, z: 0}
+      rotation: {x: 0.0000013336535, y: 0.0000016279513, z: 0.08208729, w: 0.9966251}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Finger_01_03SHJnt
+      parentName: Armature_r_Finger_01_02SHJnt
+      position: {x: 0.000316, y: 0.000013999999, z: 0}
+      rotation: {x: 0.00029691687, y: -0.000020514328, z: 0.1343321, w: 0.99093634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Finger_02_01SHJnt
+      parentName: Armature_r_Arm_WristSHJnt
+      position: {x: 0.001192, y: -0.000055999997, z: 0.000064}
+      rotation: {x: -0.1410502, y: -0.09424793, z: 0.14495881, w: 0.97478676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Finger_02_02SHJnt
+      parentName: Armature_r_Finger_02_01SHJnt
+      position: {x: 0.00047499998, y: 0.000013, z: 0}
+      rotation: {x: 0.00000075995905, y: 0.00000093132235, z: -0.10160308, w: 0.994825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Finger_02_03SHJnt
+      parentName: Armature_r_Finger_02_02SHJnt
+      position: {x: 0.00031899998, y: 0.000074999996, z: 0}
+      rotation: {x: 0, y: 0, z: 0.2480635, w: 0.9687438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Thumb_01_01SHJnt
+      parentName: Armature_r_Arm_WristSHJnt
+      position: {x: 0.00020899999, y: 0.00021099999, z: -0.000353}
+      rotation: {x: 0.7465193, y: 0.21254465, z: -0.0596454, w: 0.6276753}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Thumb_01_02SHJnt
+      parentName: Armature_r_Thumb_01_01SHJnt
+      position: {x: 0.00040899997, y: -0.000077, z: 0.000008}
+      rotation: {x: -0.1621743, y: 0.0042385887, z: -0.09264119, w: 0.98239464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Thumb_01_03SHJnt
+      parentName: Armature_r_Thumb_01_02SHJnt
+      position: {x: 0.000465, y: 0.000025, z: -0.0000050000003}
+      rotation: {x: 0, y: 0, z: 0.07070533, w: 0.99749726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Arm_ElbowSHJnt
+      parentName: Armature_r_Arm_ShoulderSHJnt
+      position: {x: 0.0028879999, y: 0, z: 0}
+      rotation: {x: -0, y: 0.23481639, z: -0, w: 0.97203976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_r_Arm_Upper_Curve1SHJnt
+      parentName: Armature_r_Arm_ShoulderSHJnt
+      position: {x: 0.0014439999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ChestPivot
+      parentName: Armature_Spine_02SHJnt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MiddlePivot
+      parentName: Armature_ROOTSHJnt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BottomPivot
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamo:theimmortal
+      parentName: Model_TheImmortal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamo:theimmortal_eye_L
+      parentName: Model_TheImmortal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamo:theimmortal_eye_R
+      parentName: Model_TheImmortal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ParentBone
+      parentName: Model_TheImmortal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: InstakillPivot
+      parentName: ParentBone
+      position: {x: -0, y: 0.011727001, z: 0.00025399998}
+      rotation: {x: 6.123234e-17, y: 1, z: 6.123234e-17, w: 3.7493994e-33}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LifebarAnchor
+      parentName: Model_TheImmortal
+      position: {x: -0, y: 0.02, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,23 +2,22 @@ using UnityEngine;
 
 public class ConquestFlight : MonoBehaviour
 {
-    public float amplitude = 0.2f; // Độ cao bay lên xuống
-    public float frequency = 0.8f; // Tốc độ bay
-    
-    private Vector3 startPos;
-
-    void Start()
-    {
-        startPos = transform.position;
-    }
+    public float amplitude = 0.2f; 
+    public float frequency = 0.8f; 
+    public Transform visualModel; // Kéo cái Model con vào đây
 
     void Update()
     {
-        // Tạo hiệu ứng lơ lửng chuẩn Invincible
-        float newY = startPos.y + Mathf.Sin(Time.time * frequency) * amplitude;
-        transform.position = new Vector3(transform.position.x, newY, transform.position.z);
+        // Chỉ di chuyển cái "vỏ" hiển thị lên xuống, không di chuyển Object cha
+        if (visualModel != null)
+        {
+            float newY = Mathf.Sin(Time.time * frequency) * amplitude;
+            visualModel.localPosition = new Vector3(0, newY, 0);
+        }
         
-        // Luôn nhìn về phía Camera (Người chơi)
-        transform.LookAt(new Vector3(Camera.main.transform.position.x, transform.position.y, Camera.main.transform.position.z));
+        // Luôn nhìn về phía người chơi
+        Vector3 targetDir = Camera.main.transform.position - transform.position;
+        targetDir.y = 0; // Giữ cho Immortal không bị ngửa ra sau
+        transform.rotation = Quaternion.LookRotation(targetDir);
     }
 }
