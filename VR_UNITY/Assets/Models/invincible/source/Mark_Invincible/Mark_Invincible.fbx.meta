@@ -3,7 +3,27 @@ guid: bb88f3f0884ba094e8189aa2cbc241d4
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Goggles
+    second: {fileID: 2100000, guid: 2ac709df45f9b0d46be5a4caa54cd86a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: a56be69304ece4a498f16d65a19df914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainBody
+    second: {fileID: 2100000, guid: 13314b6d5424e7042859f3775534f81c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline
+    second: {fileID: 2100000, guid: f55b338b435e95f40b9dc6cce6f57983, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
